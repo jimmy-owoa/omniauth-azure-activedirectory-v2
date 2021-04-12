@@ -5,7 +5,7 @@ module OmniAuth
     class AzureActivedirectoryV2 < OmniAuth::Strategies::OAuth2
       BASE_AZURE_URL = 'https://login.microsoftonline.com'
 
-      option :name, 'azure_activedirectory_v2'
+      option :name, 'azure_oauth2'
       option :tenant_provider, nil
 
       DEFAULT_SCOPE = 'openid profile email'
